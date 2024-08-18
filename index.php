@@ -46,7 +46,6 @@
     $router->get('/admin/quanlydanhmuc',[AdminController::class,'qldm']);
 
 
-
     $router->get('/admin/quanlydonhang',[AdminController::class,'qldh']);
     $router->post('/admin/quanlydonhang',[AdminController::class,'qldh']);
     echo $router->resolve($_SERVER['REQUEST_URI'],
